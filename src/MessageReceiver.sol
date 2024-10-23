@@ -7,7 +7,7 @@ import "lib/wormhole-solidity-sdk/src/interfaces/IWormholeReceiver.sol";
 contract MessageReceiver is IWormholeReceiver {
     IWormholeRelayer public wormholeRelayer;
     address public registrationOwner;
-    //adding a comment to check if set up is correct
+   //comment to see if this work
 
     // Mapping to store registered senders for each chain
     mapping(uint16 => bytes32) public registeredSenders;
